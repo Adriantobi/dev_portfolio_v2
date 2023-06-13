@@ -10,10 +10,10 @@ import NavLink from './NavLink'
 
 export default function Nav() {
     const [navOpen, setNavOpen] = useState(false)
-    const [size, setSize] = useState(60)
+    const [size, setSize] = useState(35)
 
     useEffect(() => {
-        window.addEventListener('load', e => {
+        const resize = () => {
             if(window.innerWidth < 768) {
                 setSize(35)
             }
@@ -21,17 +21,10 @@ export default function Nav() {
             else {
                 setSize(60)
             }
-        })
+        }
 
-        window.addEventListener('resize', e => {
-            if(window.innerWidth < 768) {
-                setSize(35)
-            }
-    
-            else {
-                setSize(60)
-            }
-        })
+        window.onload = resize()
+        window.addEventListener('resize', resize)
     },[])
 
     return (
