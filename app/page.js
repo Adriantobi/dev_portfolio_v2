@@ -74,8 +74,8 @@ function Projects() {
       <div className={projects.Collection}>
         <ProjectCard link='https://lofiat.github.io/' image='/darkUx.jpg' name='DarkUx' desc='Clone of a popular study space website' />
         <ProjectCard link='https://adriantobi.github.io' image='/photographyPortfolio.jpg' name='Photography Portfolio' desc='Porfolio built to display film images' />
-        <ProjectCard link='https://adriantd.netlify.com' image='/adriansPortfoliov2.jpg' name='adriantd.com (v2)' desc='An old portfolio site built with HTML' />
-        <ProjectCard link='https://adriantd.netlify.com' image='/adriansPortfoliov3.png' name='adriantd.com (v3)' desc='An old portfolio site built with HTML' />
+        <ProjectCard link='https://adriantdv2.netlify.com' image='/adriansPortfoliov2.jpg' name='adriantd.com (v2)' desc='An old portfolio site built with HTML' />
+        <ProjectCard link='https://adriantdv3.netlify.com' image='/adriansPortfoliov3.png' name='adriantd.com (v3)' desc='An old portfolio site built with HTML' />
       </div>
     </div>
   )
