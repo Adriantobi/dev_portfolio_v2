@@ -20,7 +20,7 @@ export default function Footer() {
           <div className={styles.linkLists}>
               <div className={styles.colElement}>
                   <ul>
-                      <li><FooterLink link='#hero' name='Home' /></li>
+                      <li><FooterLink link='' name='Home' /></li>
                       <li><FooterLink link='#about-me' name='About' /></li>
                       <li><FooterLink link='#projects' name='Projects' /></li>
                       <li><FooterLink link='#experience' name='Experience' /></li>

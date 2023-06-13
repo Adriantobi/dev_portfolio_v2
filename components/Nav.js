@@ -46,7 +46,7 @@ export default function Nav() {
                     </div>
                     <div className={styles.menuContent}>
                         <ul>
-                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#hero' name='HOME' /></li>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='' name='HOME' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#about-me' name='ABOUT' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#projects' name='PROJECTS' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#experience' name='EXPERIENCE' /></li>
