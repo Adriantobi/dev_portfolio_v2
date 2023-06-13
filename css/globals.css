@@ -104,6 +104,11 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  color: #323232;
+  background-color: #626262;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
