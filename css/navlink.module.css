@@ -1,0 +1,32 @@
+.NavLinkWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavLinkWrapper:hover .innerWrapper{
+    transform: translateY(-1.25em);
+}
+
+.NavLink {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    height: 1em;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    transition: all 250ms ease-in-out;
+}
+
+.innerWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}

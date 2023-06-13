@@ -1,0 +1,29 @@
+.Divider {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+}
+
+.top, .bottom {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    transform: scaleX(1.025);
+}
+
+.top {
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.bottom {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+@media (max-width: 768px) {
+    .top, .bottom {
+        transform: scaleX(1.5);
+    }
+}

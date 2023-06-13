@@ -1,0 +1,25 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400&display=swap');
+
+.Marquee {
+    display: flex;
+	/* line-height: 50px; */
+    height: fit-content;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: default;
+    font-family: 'Clash Display', sans-serif;
+    /* box-sizing: border-box; */
+}
+.Marquee p {
+    display: flex;
+    /* padding-left: 100%; */
+    font-size: 3em;
+    align-items: center;
+    animation: marquee 600s linear infinite;
+    color: #000;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}

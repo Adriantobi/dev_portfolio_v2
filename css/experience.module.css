@@ -1,0 +1,19 @@
+.Experience {
+    padding: 100px 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .Experience {
+        padding: 100px 20px;
+    }
+}

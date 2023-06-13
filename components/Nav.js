@@ -1,0 +1,53 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+import styles from '../css/nav.module.css'
+import LogoCircle from './LogoCircle'
+import NavLink from './NavLink'
+
+export default function Nav() {
+    const [navOpen, setNavOpen] = useState(false)
+
+    return (
+        <>
+            <div className={styles.Nav}>
+                <Link href='#hero'><LogoCircle size={window.innerWidth < 768 ? 35 : 60} /></Link>
+                <div className={styles.menuIcon} onClick={() => setNavOpen(!navOpen)}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                </div>
+            </div>
+
+            { navOpen ? 
+                <div className={styles.menu}>
+                    <div className={styles.menuHeader}>
+                        <span className={styles.header}>MENU</span>
+                        <span className={styles.closeMenu} onClick={() => setNavOpen(!navOpen)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </span>
+                    </div>
+                    <div className={styles.menuContent}>
+                        <ul>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#hero' name='HOME' /></li>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#about-me' name='ABOUT' /></li>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#projects' name='PROJECTS' /></li>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#experience' name='EXPERIENCE' /></li>
+                        </ul>
+                    </div>
+                    <div className={styles.menuFooter}>
+                        <div className={styles.contact}>
+                            <Link href="https://www.instagram.com/Linkdrian.td/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/instagram-new.png" width={25} height={25} alt="Instagram Icon" /></Link>
+                            <Link href="https://twitter.com/Linkdriantdoav" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/twitter-circled.png" width={25} height={25} alt="Twitter Icon" /></Link>
+                            <Link href="https://github.com/Linkdriantobi" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/github.png" width={25} height={25} alt="Github Icon" /></Link>
+                            <Link href="https://www.linkedin.com/in/Linkdriantd/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/linkedin.png" width={25} height={25} alt="Linkedin Icon" /></Link>
+                            <Link href="mailto:talktotobi.a@gmail.com" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/mail.png" width={25} height={25} alt="Mail Icon" /></Link>
+                        </div>
+                        <footer>© 2023 Adrian Tobi</footer>
+                    </div>
+                </div>
+            : null }
+        </>
+    )
+}

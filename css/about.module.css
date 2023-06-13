@@ -1,0 +1,23 @@
+.About {
+    padding: 100px 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutFooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .About {
+        padding: 100px 20px;
+    }
+}

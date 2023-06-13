@@ -1,0 +1,116 @@
+.Nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* background: url(https://grainy-gradients.vercel.app/noise.svg); */
+    background-color: rgba(0, 0, 0, .8);
+    /* backdrop-filter: blur(10px); */
+    align-items: center;
+    padding: 20px 130px;
+    z-index: 1;
+}
+
+.menuIcon {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuIcon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 600px;
+    height: calc(100svh - 20px);
+    background: rgba( 0, 0, 0, 0.25 );
+    backdrop-filter: blur( 35px );
+    border-radius: 20px;
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.closeMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuContent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.menuContent ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.menuContent ul li:first-of-type {
+    border-top: 1px solid white;
+}
+
+.menuContent li {
+    font-size: 3em;
+    border-bottom: 1px solid white;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.menuContent li a {
+    width: 100%;
+    height: 100%;
+}
+
+.menuFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .Nav {
+        padding: 20px 20px;
+        height: 50px;
+    }
+
+    .menu {
+        width: calc(100% - 20px);
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=telma@400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=boxing@400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=comico@400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=array@400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+.Hero {
+    padding: 85px 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero h1 {
+    display: flex;
+    font-size: 6.25em;
+    font-weight: 500;
+    flex-direction: column;
+    position: relative;
+    max-width: 100%;
+    gap: 30px;
+}
+
+.Hero h1 code {
+    font-size: .35em;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.console {
+    color: rgb(199, 124, 49);
+}
+
+.log {
+    color: rgb(0, 166, 255);
+}
+
+.bracket {
+    color: rgb(208, 79, 231);
+}
+
+.content {
+    color: rgb(81, 171, 81);
+}
+
+.heroContent img {
+    filter: invert(100%);
+}
+
+.name {
+  font-family: 'Clash Display', sans-serif;
+  font-style: italic;
+}
+
+.job {
+    font-family: 'Array', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .Hero {
+        padding: 100px 20px;
+        height: calc(100vh - 120px);
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .Hero h1 {
+        font-size: 3.45em;
+    }
+}

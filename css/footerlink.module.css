@@ -1,0 +1,26 @@
+.FooterLink {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    height: 1.5em;
+}
+
+.FooterLink:hover .innerWrapper{
+    transform: translateY(-1.5em);
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    transition: all 250ms ease-in-out;
+}
+
+.innerWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}

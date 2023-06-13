@@ -1,0 +1,78 @@
+.ProjectCard {
+    display: flex;
+    gap: 15px;
+    max-width: 600px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.ProjectCard:hover .infoWrapper{
+    transform: translateY(-1.5em);
+}
+
+.ProjectCard:hover .linkIcon {
+    visibility: visible;
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.projectMedia {
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 454px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.linkIcon {
+    width:48px;
+    height: 48px;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #fff;
+    border-radius: 100%;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: absolute;
+    transition: transform 400ms ease-in-out, visibility 500ms ease-in-out, opacity 500ms ease-in-out;
+    top: 20px;
+    left: 20px;
+    align-items: center;
+}
+
+.linkIcon svg {
+    stroke: #000;
+}
+
+.projectInfo {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    height: 1.5em;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    transition: all 250ms ease-in-out;
+}
+
+.infoWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}

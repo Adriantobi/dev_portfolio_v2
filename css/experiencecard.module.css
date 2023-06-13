@@ -1,0 +1,111 @@
+.ExperienceCard {
+    display: flex;
+    max-width: 600px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    gap: 20px;
+    transition: background-color 250ms ease-in-out;
+}
+
+.ExperienceCard:hover {
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+}
+
+.ExperienceCard:hover .innerWrapper {
+    transform: translateY(-1.5em);
+}
+
+.leftCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-width: fit-content;
+    gap: 10px;
+}
+
+.companyWrapper {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.timeLine {
+    font-size: .75em;
+    display: flex;
+    opacity: .5;
+    flex-wrap: nowrap;
+}
+
+.jobInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.role {
+    display: flex;
+    width: fit-content;
+    height: 1.5em;
+    overflow: hidden;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    transition: all 250ms ease-in-out;
+}
+
+.innerWrapper span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.jobDesc {
+    display: flex;
+    flex-wrap: wrap;
+    opacity: .75;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tech {
+    background-color: #025cb1;
+    border-radius: 15px;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+@media (max-width:480px) {
+    .ExperienceCard {
+        flex-direction: column;
+    }
+
+    .companyWrapper {
+        width: 96px;
+        height: 96px;
+    }
+}
+
+@media (max-width: 376px) {
+    .ExperienceCard {
+        padding: 10px;
+    }
+    
+    .ExperienceCard:hover .innerWrapper {
+        transform: translateY(0em);
+    }
+}
