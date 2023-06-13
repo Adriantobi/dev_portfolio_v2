@@ -10,11 +10,24 @@ import NavLink from './NavLink'
 
 export default function Nav() {
     const [navOpen, setNavOpen] = useState(false)
+    const [size, setSize] = useState(35)
+    
+    useEffect(() => {
+        window.addEventListener('resize', e => {
+            if(window.innerWidth < 768) {
+                setSize(35)
+            }
+    
+            else {
+                setSize(60)
+            }
+        })
+    },[])
 
     return (
         <>
             <div className={styles.Nav}>
-                <Link href='#hero'><LogoCircle size={window.innerWidth < 768 ? 35 : 60} /></Link>
+                <Link href='#hero'><LogoCircle size={size} /></Link>
                 <div className={styles.menuIcon} onClick={() => setNavOpen(!navOpen)}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
                 </div>
