@@ -13,6 +13,16 @@ export default function Nav() {
     const [size, setSize] = useState(60)
 
     useEffect(() => {
+        window.addEventListener('load', e => {
+            if(window.innerWidth < 768) {
+                setSize(35)
+            }
+    
+            else {
+                setSize(60)
+            }
+        })
+
         window.addEventListener('resize', e => {
             if(window.innerWidth < 768) {
                 setSize(35)
