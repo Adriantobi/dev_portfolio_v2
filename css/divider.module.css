@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #fff;
+    background-color: rgb(var(--foreground-rgb));
 }
 
 .top, .bottom {
     height: 100px;
     width: 100%;
-    background-color: #000;
+    background-color: rgb(var(--background-end-rgb));
     transform: scaleX(1.025);
 }
 

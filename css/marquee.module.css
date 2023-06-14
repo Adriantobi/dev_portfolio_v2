@@ -11,14 +11,16 @@
     font-family: 'Clash Display', sans-serif;
     /* box-sizing: border-box; */
 }
+
 .Marquee p {
     display: flex;
     /* padding-left: 100%; */
     font-size: 3em;
     align-items: center;
     animation: marquee 600s linear infinite;
-    color: #000;
+    color: rgb(var(--background-end-rgb));
 }
+
 @keyframes marquee {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }

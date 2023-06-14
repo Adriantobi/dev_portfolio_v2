@@ -1,6 +1,6 @@
 .Footer {
-    display: flex;
-    background-color: #fff;
+    display: flex; 
+    background-color: rgb(var(--foreground-rgb));;
     flex-direction: column;
     gap: 10px;
 }
@@ -11,7 +11,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 40px;
-    color: #000;
+    color: rgb(var(--background-end-rgb));
 }
 
 .footerContent h1 { 
@@ -20,8 +20,8 @@
     height: fit-content;
 }
 
-.footerContent h1 a { 
-    color: #000;
+.footerContent h1 a {
+    /* color: rgb(var(--background-end-rgb)); */
 }
 
 .footerTop {
@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(var(--background-end-rgb));
 }
 
 .linkLists {
@@ -45,7 +45,7 @@
     width: 200px;
     height: 225px;
     flex-direction: column;
-    color: #000;
+    /* color: rgb(var(--background-end-rgb)); */
 }
 
 .colElement ul {
@@ -65,7 +65,7 @@
 
 .colElement ul li a {
     text-decoration: none;
-    color: #000;
+    /* color: rgb(var(--background-end-rgb)); */
     padding: 5px;
     transition: .35s ease-out;
 }

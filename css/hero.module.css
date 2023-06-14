@@ -9,6 +9,7 @@
     padding: 85px 130px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(var(--background-end-rgb));
 }
 
 .Hero h1 {

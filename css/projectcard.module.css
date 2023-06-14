@@ -39,7 +39,7 @@
     display: flex;
     visibility: hidden;
     opacity: 0;
-    background-color: #fff;
+    background-color: rgb(var(--foreground-rgb));
     border-radius: 100%;
     justify-content: center;
     transform: rotate(45deg);
@@ -51,7 +51,7 @@
 }
 
 .linkIcon svg {
-    stroke: #000;
+    stroke: rgb(var(--background-end-rgb));
 }
 
 .projectInfo {
