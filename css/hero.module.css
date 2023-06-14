@@ -53,10 +53,9 @@
     font-family: 'Array', sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
     .Hero {
         padding: 100px 20px;
-        height: calc(100vh - 120px);
         justify-content: center;
         justify-self: center;
         align-items: center;
@@ -64,5 +63,11 @@
 
     .Hero h1 {
         font-size: 3.45em;
+    }
+}
+
+@media (420px < width < 430px) {
+    .Hero {
+        height: calc(100vh - 120px);
     }
 }

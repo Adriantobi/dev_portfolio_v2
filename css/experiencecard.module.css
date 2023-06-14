@@ -90,7 +90,7 @@
     font-size: 12px;
 }
 
-@media (max-width:480px) {
+@media (width < 540px) {
     .ExperienceCard {
         flex-direction: column;
     }
@@ -101,7 +101,7 @@
     }
 }
 
-@media (max-width: 376px) {
+@media (width < 376px) {
     .ExperienceCard {
         padding: 10px;
     }

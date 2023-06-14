@@ -19,13 +19,13 @@
     font-size: 4em;
 }
 
-@media (max-width: 480px) {
+@media (width < 480px) {
     .title {
         font-size: 3.5em;
     }
 }
 
-@media (max-width: 360px) {
+@media (width < 360px) {
     .title {
         font-size: 3em;
     }

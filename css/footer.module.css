@@ -95,7 +95,7 @@
     gap: 10px;
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
     .footerContent {
         padding: 40px 20px;
     }
