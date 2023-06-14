@@ -44,7 +44,7 @@
 }
 
 .heroContent img {
-    filter: invert(100%);
+    filter: invert(var(--filter));
 }
 
 .name {
