@@ -52,7 +52,7 @@ function About() {
     <div className={about.About} id='about-me'>
       <SectionTitle desc='Let’s get to know each other a bit better. Here is a litle bit about me' title='About' />
       <div className={about.aboutContent}>
-        <p>I love building reactive software that goes live on the internet and this interest in web development was sparked back in 2016. Fast forward to right now I have started my degree in Computer Science at Queen Mary University of London and I have explored many different languages, tools, libraries and APIs. I live on the internet and aim to learn as many of the things that it has to offer.</p>
+        <p>I love building reactive software that goes live on the internet and this interest in web development was sparked back in 2016 when I first saw a web development project. Fast forward to right now I have started my degree in Computer Science at Queen Mary University of London and I have explored many different languages, tools, libraries and APIs. I live on the internet and aim to learn as many of the things that it has to offer.</p>
         <div class="aboutFooter">
             <Image src="https://cdn3d.iconscout.com/3d/free/thumb/react-5645899-4695757.png?f=webp" width={40} height={40} alt="React Icon" />
             <Image src="https://cdn3d.iconscout.com/3d/free/thumb/html-5728485-4781249.png?f=webp" width={40} height={40} alt="HTML Icon" />
