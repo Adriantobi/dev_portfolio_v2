@@ -37,10 +37,10 @@ export default function Footer() {
                 <input type="checkbox" id="mode" /><label for="mode"></label>
             </div> */}
             <div className={styles.footerLinks}>
-              <Link href="https://www.instagram.com/Linkdrian.td/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/instagram-new.png" width={25} height={25} alt="Instagram Icon" /></Link>
-              <Link href="https://twitter.com/Linkdriantdoav" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/twitter-circled.png" width={25} height={25} alt="Twitter Icon" /></Link>
-              <Link href="https://github.com/Linkdriantobi" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/github.png" width={25} height={25} alt="Github Icon" /></Link>
-              <Link href="https://www.linkedin.com/in/Linkdriantd/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/linkedin.png" width={25} height={25} alt="Linkedin Icon" /></Link>
+              <Link href="https://www.instagram.com/adrian.td/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/instagram-new.png" width={25} height={25} alt="Instagram Icon" /></Link>
+              <Link href="https://twitter.com/adriantdoav" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/twitter-circled.png" width={25} height={25} alt="Twitter Icon" /></Link>
+              <Link href="https://github.com/Adriantobi" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/github.png" width={25} height={25} alt="Github Icon" /></Link>
+              <Link href="https://www.linkedin.com/in/adriantd/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/linkedin.png" width={25} height={25} alt="Linkedin Icon" /></Link>
               <Link href="mailto:talktotobi.a@gmail.com" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/mail.png" width={25} height={25} alt="Mail Icon" /></Link>
             </div>
         </div>
