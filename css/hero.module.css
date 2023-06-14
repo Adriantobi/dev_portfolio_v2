@@ -1,7 +1,4 @@
 @import url('https://api.fontshare.com/v2/css?f[]=clash-display@400&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=telma@400&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=boxing@400&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=comico@400&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=array@400&display=swap');
 @import url('https://fonts.cdnfonts.com/css/cascadia-code');
 
@@ -54,6 +51,7 @@
 
 .job {
     font-family: 'Array', sans-serif;
+    color: var(--background-end-rgb);
 }
 
 @media (max-width: 768px) {
