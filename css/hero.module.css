@@ -51,7 +51,6 @@
 
 .job {
     font-family: 'Array', sans-serif;
-    color: var(--background-end-rgb);
 }
 
 @media (max-width: 768px) {
