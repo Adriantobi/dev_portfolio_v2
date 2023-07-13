@@ -105,7 +105,9 @@
     .ExperienceCard {
         padding: 10px;
     }
-    
+}
+
+@media (width < 360px) {
     .ExperienceCard:hover .innerWrapper {
         transform: translateY(0em);
     }
