@@ -24,7 +24,7 @@ export default function Footer() {
                       <li><FooterLink link='#about-me' name='About' /></li>
                       <li><FooterLink link='#projects' name='Projects' /></li>
                       <li><FooterLink link='#experience' name='Experience' /></li>
-                      <li><FooterLink link='/pdf/Adrian_Tobi_Resume_04-07-2023-13-54-30.pdf' name='Resume' /></li>
+                      <li><FooterLink link='/pdf/Adrian_Tobi_Resume_10-07-2023-11-08-05.pdf' name='Resume' /></li>
                   </ul>
               </div>
           </div>
