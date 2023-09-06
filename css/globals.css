@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -86,6 +88,7 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth !important;
+  font-family: 'Circular Std', sans-serif;
 }
 
 body {
