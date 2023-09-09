@@ -30,7 +30,7 @@ export default function Nav() {
     return (
         <>
             <div className={styles.Nav}>
-                <Link href=''><LogoCircle size={size} /></Link>
+                <Link href='/'><LogoCircle size={size} /></Link>
                 <div className={styles.menuIcon} onClick={() => setNavOpen(!navOpen)}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
                 </div>
@@ -46,7 +46,7 @@ export default function Nav() {
                     </div>
                     <div className={styles.menuContent}>
                         <ul>
-                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='' name='HOME' /></li>
+                            <li onClick={() => setNavOpen(!navOpen)}><NavLink link='/' name='HOME' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#about-me' name='ABOUT' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#projects' name='PROJECTS' /></li>
                             <li onClick={() => setNavOpen(!navOpen)}><NavLink link='#experience' name='EXPERIENCE' /></li>

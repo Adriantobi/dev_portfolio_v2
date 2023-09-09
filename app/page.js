@@ -73,7 +73,7 @@ function Projects() {
       <SectionTitle desc='I’m an aspiring software engineer specializing in building and designing astonishing digital experiences for users. Currently, I’m focused on building some projects of my own.' title='Projects' />
       <div className={projects.Collection}>
         <ProjectCard link='https://epsomandewellhub.com' image='/epsomAndEwellHub.png' name='Epsom And Ewell Hub' desc='Careers Service built with Wix' />
-        <ProjectCard link='https://ce-wallington.vercel.app' image='/christEmbassyWallington.png' name='CE Wallington' desc='Website for church built with Nextjs' />
+        <ProjectCard link='https://ce-wallington.vercel.app' image='/christEmbassyWallington.png' name='Christ Embassy Wallington' desc='Website for church built with Nextjs' />
         <ProjectCard link='https://lofiat.github.io/' image='/darkUx.jpg' name='DarkUx' desc='Clone of a study space website' />
         <ProjectCard link='https://adriantobi.github.io' image='/photographyPortfolio.jpg' name='Photography Portfolio' desc='Porfolio built to display film images' />
         <ProjectCard link='https://adriantdv2.netlify.com' image='/adriansPortfoliov2.jpg' name='adriantd.com (v2)' desc='An old portfolio site built with HTML' />
