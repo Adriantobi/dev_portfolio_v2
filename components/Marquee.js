@@ -7,7 +7,7 @@ export default function Marquee( props ) {
     }
 
   return (
-    <div className={styles.Marquee}>
+    <div className={styles.Marquee} aria-hidden={true}>
         <p>{words}</p>
     </div>
   )
