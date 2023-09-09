@@ -16,7 +16,7 @@ export default function Footer() {
       
       <div className={styles.footerContent}>
         <div className={styles.footerTop}>
-          <h1><Link href="">Adrian <br /> Tobi</Link></h1>
+          <h1><Link href="/">Adrian <br /> Tobi</Link></h1>
           <div className={styles.linkLists}>
               <div className={styles.colElement}>
                   <ul>
