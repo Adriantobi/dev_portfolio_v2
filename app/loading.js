@@ -2,7 +2,7 @@ import styles from '../css/loading.module.css'
 
 import Link from 'next/link'
 
-export default function loading() {
+export default function Loading() {
   return (
     <div className={styles.Loading}>
         <div className={styles.container}>
