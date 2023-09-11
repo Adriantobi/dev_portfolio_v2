@@ -24,7 +24,7 @@ export default function Footer() {
                       <li><FooterLink link='#about-me' name='About' /></li>
                       <li><FooterLink link='#projects' name='Projects' /></li>
                       <li><FooterLink link='#experience' name='Experience' /></li>
-                      <li><FooterLink link='/pdf/Adrian_Tobi_Resume_10-07-2023-11-08-05.pdf' name='Resume' /></li>
+                      <li><FooterLink link='/pdf/Adrian_Tobi_Resume_11-09-2023-16-05-11.pdf' name='Resume' /></li>
                   </ul>
               </div>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
               <Link href="https://twitter.com/adriantdoav" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/twitter-circled.png" width={25} height={25} alt="Twitter Icon" /></Link>
               <Link href="https://github.com/Adriantobi" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/github.png" width={25} height={25} alt="Github Icon" /></Link>
               <Link href="https://www.linkedin.com/in/adriantd/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/linkedin.png" width={25} height={25} alt="Linkedin Icon" /></Link>
-              <Link href="mailto:talktotobi.a@gmail.com" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/mail.png" width={25} height={25} alt="Mail Icon" /></Link>
+              <Link href="mailto:talktotobi.a@gmail.com?subject=I have a challenge for you!" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/mail.png" width={25} height={25} alt="Mail Icon" /></Link>
             </div>
         </div>
       </div>
