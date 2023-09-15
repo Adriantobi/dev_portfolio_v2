@@ -16,7 +16,6 @@ export default function ExperienceCard( props ) {
                         sizes='100vw'
                         style={{ width: '100%', height: 'auto' }} // optional
                         alt={props.company + ' Logo'}
-                        quality={100}
                     />
                 </div>
                 <div className={styles.timeLine}>{props.start} — {props.end}</div>
