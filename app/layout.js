@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400&display=swap" rel="stylesheet" />
         <link href="https://api.fontshare.com/v2/css?f[]=array@400&display=swap" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet" />
       </Head>
