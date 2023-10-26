@@ -30,3 +30,9 @@
     gap: 5px;
     width: fit-content;
 }
+
+@media (width < 360.5px) {
+    .link, .linkHover {
+        font-size:  .95em;
+    }
+}
