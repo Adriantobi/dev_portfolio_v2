@@ -2,7 +2,26 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: [ "img.icons8.com", "media.licdn.com", "cdn3d.iconscout.com", ]
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'img.icons8.com',
+                port: '',
+                pathname: '/3d-fluency/1x/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'media.licdn.com',
+                port: '',
+                pathname: 'dms/image/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'cdn3d.iconscout.com',
+                port: '',
+                pathname: '/3d/free/thumb/**',
+            }
+        ],
     },
 }
 

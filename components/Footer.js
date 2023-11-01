@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
         
         <div className={styles.footerBottom}>
-            <footer>The result of a four days of continuous development. Very loosely designed in Figma and written in Visual Studio Code. Built with Next.js and CSS Modules, deployed with Vercel.</footer>
+            <footer>The result of a four days of continuous development. Very loosely designed in Figma and written in Neovim. Built with Next.js and CSS Modules, deployed with Vercel.</footer>
             {/* <div className={styles.displayMode}>
                 <p>Display Mode</p>
                 <input type="checkbox" id="mode" /><label for="mode"></label>
