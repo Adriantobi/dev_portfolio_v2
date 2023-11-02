@@ -13,13 +13,13 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'media.licdn.com',
                 port: '',
-                pathname: 'dms/image/**',
+                pathname: '/dms/image/**',
             },
             {
                 protocol: 'https',
                 hostname: 'cdn3d.iconscout.com',
                 port: '',
-                pathname: '/3d/free/thumb/**',
+                pathname: '/3d/**',
             }
         ],
     },
