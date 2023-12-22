@@ -9,6 +9,7 @@
 .Collection {
     display: flex;
     flex-wrap: wrap;
+    align-items: start;
     justify-content: space-evenly;
     gap: 20px;
 }
