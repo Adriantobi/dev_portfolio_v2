@@ -10,7 +10,7 @@ import FooterLink from './FooterLink'
 export default function Footer() {
   return (
     <div className={styles.Footer}>
-      <div className={divider.top}></div>
+      <div className={divider.top} />
       <Marquee content='FOOTER' />
 
       

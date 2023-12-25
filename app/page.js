@@ -40,9 +40,9 @@ function Hero() {
 function Divider() {
   return (
     <div className={divider.Divider}>
-      <div className={divider.top}></div>
+      <div className={divider.top} />
       <Marquee content='ADRIAN.TOBI' />
-      <div className={divider.bottom}></div>
+      <div className={divider.bottom} />
     </div>
   )
 }
