@@ -15,7 +15,7 @@ export default function ProjectCard( props ) {
                         height={0}
                         sizes='100vw'
                         style={{ width: '100%', height: 'auto' }} // optional
-                        alt={props.name + ' image'}
+                        alt={`${props.name} Image`}
                     />
                 </div>
 
