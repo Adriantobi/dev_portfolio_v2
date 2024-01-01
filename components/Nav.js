@@ -11,6 +11,7 @@ import NavLink from './NavLink'
 export default function Nav() {
     const [navOpen, setNavOpen] = useState(false)
     const [size, setSize] = useState(35)
+    const year = new Date().getFullYear()
 
     useEffect(() => {
         const resize = () => {
@@ -60,7 +61,7 @@ export default function Nav() {
                             <Link href="https://www.linkedin.com/in/adriantd/" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/linkedin.png" width={25} height={25} alt="Linkedin Icon" /></Link>
                             <Link href="mailto:talktotobi.a@gmail.com?subject=I have a challenge for you!" target="_blank"><Image src="https://img.icons8.com/3d-fluency/1x/mail.png" width={25} height={25} alt="Mail Icon" /></Link>
                         </div>
-                        <footer>© 2023 Adrian Tobi</footer>
+                        <footer>© {year} Adrian Tobi</footer>
                     </div>
                 </div>
             : null }
