@@ -76,8 +76,8 @@ function Projects() {
         <ProjectCard link='https://ce-wallington.vercel.app' image='/christEmbassyWallington.png' name='Christ Embassy Wallington' desc='Website for church built with Nextjs' />
         <ProjectCard link='https://lofiat.github.io/' image='/darkUx.jpg' name='DarkUx' desc='Clone of a study space website' />
         <ProjectCard link='https://photos.adriantd.com' image='/photographyPortfolio.jpg' name='Photography Portfolio' desc='Porfolio built to display film images' />
-        <ProjectCard link='https://v0.adriantd.com' image='/adriansPortfoliov0.jpg' name='adriantd.com (v2)' desc='An old portfolio site built with HTML' />
-        <ProjectCard link='https://v1.adriantd.com' image='/adriansPortfoliov1.png' name='adriantd.com (v3)' desc='An old portfolio site built with HTML' />
+        <ProjectCard link='https://v0.adriantd.com' image='/adriansPortfoliov0.jpg' name='adriantd.com (v0)' desc='An old portfolio site built with HTML' />
+        <ProjectCard link='https://v1.adriantd.com' image='/adriansPortfoliov1.png' name='adriantd.com (v1)' desc='An old portfolio site built with HTML' />
       </div>
     </div>
   )
