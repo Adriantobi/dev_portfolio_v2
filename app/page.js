@@ -202,7 +202,7 @@ function Experience() {
           tech={["Vue.js", "CSS", "TypeScript"]}
         />
         <ExperienceCard
-          image="https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1738800000&v=beta&t=lIJnZUeWG3ayCmC5JSYeu0h4VVXlfa6tufcdlKz_yqs"
+          image="https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1747267200&v=beta&t=R6xV6wFDyCfTX7BzfSUCFQvcpNJ035-ltrr_1IYPBec"
           link="https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
           start="AUG 2021"
           end="AUG 2021"
